@@ -1,0 +1,25 @@
+{
+  "name": "student-account-management",
+  "version": "1.0.0",
+  "description": "Student Account Management System - Migrated from COBOL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "accounting",
+    "student",
+    "cobol-migration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
